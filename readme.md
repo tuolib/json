@@ -1,3 +1,4 @@
+```javascript
 function buildFormData(formData, data, parentKey) {
   if (data && typeof data === 'object' && !(data instanceof Date) && !(data instanceof File)) {
     Object.keys(data).forEach(key => {
@@ -17,3 +18,7 @@ function jsonToFormData(data) {
 
   return formData;
 }
+
+```
+
+
